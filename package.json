@@ -1,24 +1,26 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-12",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://bimia.github.io/goit-js-hw-11/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://bimia.github.io/goit-js-hw-11/"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://bimia.github.io/goit-js-hw-11/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.7",
+    "simplelightbox": "^2.14.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
